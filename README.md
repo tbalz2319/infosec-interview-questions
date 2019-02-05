@@ -1,7 +1,8 @@
-# owasp-top-10-summary
-Simple web app with the summary of the OWASP top 10 vulnerabilities of 2017
+# Infosec Interview Questions Compilation
 
-Reference:
-https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf
+### Note these interview questions have been for entry level security analysts and pentester roles 
+
+*Most web applications were either from existing web applications some where built by the companies who I was interviewing for so I unfortunately cannot share each companies web applications*
+
 
 

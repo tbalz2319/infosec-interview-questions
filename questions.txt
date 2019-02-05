@@ -1,0 +1,95 @@
+A collection of questions from my Infosec interviews for positions such as:
+pentester and  security analyst
+
+,-----.                          ,--.  ,--.                       
+'  .-.  '  ,--.,--. ,---.  ,---.,-'  '-.`--' ,---. ,--,--,  ,---.  
+|  | |  |  |  ||  || .-. :(  .-''-.  .-',--.| .-. ||      \(  .-'  
+'  '-'  '-.'  ''  '\   --..-'  `) |  |  |  |' '-' '|  ||  |.-'  `) 
+ `-----'--' `----'  `----'`----'  `--'  `--' `---' `--''--'`----'  
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                                                                   
+
+What can you assume if you are on a web application anf there
+is a search bar which trows a 500 error after you enter a ' in the search?
+
+Are you familiar with some automated tools that can help you find
+SQL Injectons? What are they called and how do you use them?
+
+Do you know what XXE is, can you explain it?
+
+Are you familiar with OWASP? Can you name some of the TOP 10 2017 vulnerabilities
+and explain what they are?
+
+Can you explain the process of when I type google.com into the search bar then I get results back?
+
+Can you explain what XSS is and the different types of XSS?
+
+What does it mean when cookies have an httpOnly flag?
+
+What is Self-XSS an why is it not a vaid bug to report?
+
+What are some SQLi methods you can use if you are dealing with a 
+blind SQL injection to confirm your query is executing?
+
+What is CRSF and what are some ways to prevent it?
+
+,------.                  ,--.                 ,--.  ,--.                
+|  .--. ' ,---. ,--,--, ,-'  '-. ,---.  ,---.,-'  '-.`--',--,--,  ,---.  
+|  '--' || .-. :|      \'-.  .-'| .-. :(  .-''-.  .-',--.|      \| .-. | 
+|  | --' \   --.|  ||  |  |  |  \   --..-'  `) |  |  |  ||  ||  |' '-' ' 
+`--'      `----'`--''--'  `--'   `----'`----'  `--'  `--'`--''--'.`-  /  
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                                                                `---'   
+
+For all interviews one of the rounds included pentesting a web application 
+and writing a report to summarize the vulnerabilities found and their impact.
+Here is a list of some specific pentesting report content companies asked:
+
+
+Pentesting Report 1:
+    Here is web application X , pentest the site for vulnerabilities and write a report.
+    For each vulnerability include:
+            - Executive Overview (broad explanation of the vulnerability)
+            - Vulnerabilities Details (enough information for a developer to understand)
+            - Remediation Recommendation (how to fix each vulnerability)
+            - Screenshots/video of successful exploits 
+
+    Bonus for finding the following in the web app:
+            -Database usernames and passwords
+            -Application usernames and passwords
+            -Admin’s secret document
+            -Contents of /root/garbage
+            -Root shell
+
+Pentesting Report 2:
+    Here is web application X it uses a MYSQL database which has different priviledges levels.
+    Find vulnerabilities such as those listed in OWASP TOP 10 and give  some degree of a write-up in a PDF, Word document, Open Document format,
+    or text file format. 
+    For each vulnerability include:
+            - Screenshots/explanations of how you triggered an issue
+            - Severity level
+            - Impact of the issues discovered (the so what)
+            - A recommendation on how to fix each bug ( 1 sentence or so)
+
+
+Pentesting Report 3:
+    Share your computer screen with the person who will be interviewing you. 
+    You will be playing the role of a security analyst in a triage team. 
+    You will be given a web application X, and there is ~8 bug reports for the web 
+    application. Read each report, and reproduce each  bug then determine wether 
+    the bug report is valid or not. If the bug is not valid give an explanation. 
+    Make sure to also give a quick explanation following CVSS to rate the severity 
+    of each report. 
+
+    Reports included reproducing bugs such as:
+         - Self XSS
+         - Manipulating the cookie to get admin privileges 
+         - Stored and Reflected XSS
+         - Code Execution
+         
+
+
+
+
+
+
