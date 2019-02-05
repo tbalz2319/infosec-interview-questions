@@ -1,0 +1,22 @@
+Question I been asked during Infosec interviews
+
+QUESTIONS
+
+What can you assume if you are on a web application anf there
+is a search bar which trows a 500 error after you enter a '.
+
+Are you familiar with some automated tools that can help you find
+SQL Injectons? What are they called and how do you use them?
+
+Do you know what XXE is?
+
+Are you familiar with OWASP? Can you canem some of the TOP 10 vulnerabilities
+andwhat they are?
+
+Can you explain the process of when I type google.com into the search bar then I get results back?
+
+Can you explain what XSS is and the different types of XSS?
+
+
+
+
