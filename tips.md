@@ -20,6 +20,5 @@ to prevent yourself from intercepting a call:
 -  Changing attribute values of hidden inputs from hidden to display. This can sometimes popup interesting IDs or functionalities: 
     `<input  name="usrId" type="hidden" value="">`
 - In the developer console typing: `document.cookie` to show the currently set cookies
-- HTML comments are denoted by arrows `<!-- this is a comment -->` they can sometimes help
-reveal hidden content or verbose developer oopsies such as AWS keys
+- HTML comments are denoted by arrows `<!-- this is a comment -->` they can sometimes help reveal hidden content or verbose developer oopsies such as AWS keys
 
