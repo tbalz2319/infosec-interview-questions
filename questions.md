@@ -10,8 +10,8 @@
 
 ## OWASP TOP 10 Questions (Web Apps)
 
-What can you assume if you are on a web application anf there
-is a search bar which trows a 500 error after you enter a ' in the search?
+What can you assume if you are on a web application after you enter a ' in the search bar
+you get a HTTP 500 status code?
 
 Are you familiar with some automated tools that can help you find
 SQL Injectons? What are they called and how do you use them?
@@ -19,11 +19,11 @@ SQL Injectons? What are they called and how do you use them?
 Do you know what XXE is, can you explain it?
 
 Are you familiar with OWASP? Can you name some of the TOP 10 2017 vulnerabilities
-and explain what they are?
+and explain what they each are?
 
-Can you explain the process of when I type google.com into a search bar then I get results back?
+Can you explain a bit of how the web works. For example when I search for site.com on Google what is the process by which I get all the results?
 
-Can you explain what XSS is and the 3 different types of XSS?
+Can you explain what XSS is and the 3 different types?
 
 What does it mean when cookies have an HttpOnly flag? Why would it matter?
 
@@ -36,8 +36,7 @@ What is CSRF and what are some ways to prevent it?
 
 What is the SAME ORIGIN policy? Would a state changing CSRF request be prevented by the policy?
 
-How would you explain to a developer how to fix a CSRF vulnerability on their site? What are some
-ways you know to fix CSRF?
+How would you explain to a developer how to fix a CSRF vulnerability on their site? What are some ways you know to fix CSRF?
 
 How does CORS (Cross-Origin Resource Sharing) work if I have a site called site.com and I am trying to fetch an image on cats.com. Say the site is not granted access to access my site, when will the CORS request fail? When I try to request to image on the client side, when the server receives the request on the server side, when the server is issuing a response back to the site? 
 
