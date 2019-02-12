@@ -14,11 +14,11 @@ to prevent yourself from intercepting a call:
 - 400 Bad Request user submitted a invalid HTTP request
 - 500 Internal Server Error submitting unexpected user input
 
-4. Know some basics on the Chrome/Mozilla Developer tools. Simple things such as knowing how to inspect an element change hidden attributes to visible can help! Below are some JS tips:
+4. Know some basics on the Chrome/Mozilla Developer tools. This can really help with live web application pentesting interviews! 
 
-- Right click inspect
--  Changing attribute values of hidden inputs from hidden to display. This can sometimes popup interesting IDs or functionalities: 
-    `<input  name="usrId" type="hidden" value="">`
-- In the developer console typing: `document.cookie` to show the currently set cookies
-- HTML comments are denoted by arrows `<!-- this is a comment -->` they can sometimes help reveal hidden content or verbose developer oopsies such as AWS keys
+5. Know the Same Origin Policy in depth. Why it works, how it can be bypassed, how does it come into play with state changing CSRF attacks. 
+
+6. Know how CORS works and the process from the client all the way to the server side of how it is executed.
+
+7. Be familiar reading code (python) so you do not get stuck understanding a for loop iterating through each element in an array etc!
 
