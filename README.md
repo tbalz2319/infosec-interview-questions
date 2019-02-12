@@ -6,10 +6,11 @@
 
 
 ## Quick overview of the info found in each file:
-
+`
 ├── **pentesting-questions** (Questions asked for pentesting web applications)
 ├── **questions** (verbal technical questions)
 └── **tips** (Things I wish I knew before interviews)
+`
 
 ## Questions asked revolved around:
 
