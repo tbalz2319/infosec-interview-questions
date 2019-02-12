@@ -21,7 +21,7 @@ Do you know what XXE is, can you explain it?
 Are you familiar with OWASP? Can you name some of the TOP 10 2017 vulnerabilities
 and explain what they are?
 
-Can you explain the process of when I type google.com into the search bar then I get results back?
+Can you explain the process of when I type google.com into a search bar then I get results back?
 
 Can you explain what XSS is and the 3 different types of XSS?
 
@@ -58,11 +58,11 @@ You manage to get shell on a system with low privileges. It is a Linux system wh
 
 ## Brain Teasers
 
-If we where at a coffee shop and I told you to get me free coffee what are all the ways you could get me coffee? With all the ways you think to get me coffee think of the equivalent technical attack. For example, impersonating a barista to get a free coffee would be equivalent to trying to brute force Credentials
+If we where at a coffee shop and I told you to get me free coffee, what are all the ways you could get me coffee (think non-technical ways)? With all the ways you think to get me coffee think of the equivalent technical attack. For example, impersonating a barista to get a free coffee would be equivalent to trying to brute force credentials
 
 ## Code Review 
 
-Walk me through this Python code file which implements a COSRS policy, what is the code doing and where are possible vulnerabilities in the code?
+Walk me through this Python code file which implements a CORS policy, what is the code doing and where are possible vulnerabilities in the code?
 
 
 
