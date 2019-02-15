@@ -20,5 +20,7 @@ to prevent yourself from intercepting a call:
 
 6. Know how CORS works and the process from the client all the way to the server side of how it is executed.
 
-7. Be familiar reading code (python) so you do not get stuck understanding a for loop iterating through each element in an array etc!
+7. Be familiar reading code (Python) so you do not get stuck understanding a for loop iterating through each element in an array etc!
+
+8. Create a profile on StackOverflow and GitHub and upload your own sample code to talk about during interview
 
